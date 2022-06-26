@@ -1,0 +1,906 @@
+[
+    {
+        "model": "temp_monitoring.temperature",
+        "pk": 1,
+        "fields": {
+            "timestamp": "2020-12-06T12:00:00Z",
+            "value": 26.3
+        }
+    },
+    {
+        "model": "temp_monitoring.temperature",
+        "pk": 2,
+        "fields": {
+            "timestamp": "2020-12-06T12:01:00Z",
+            "value": 24.3
+        }
+    },
+    {
+        "model": "temp_monitoring.temperature",
+        "pk": 3,
+        "fields": {
+            "timestamp": "2020-12-06T12:02:00Z",
+            "value": 27.3
+        }
+    },
+    {
+        "model": "temp_monitoring.temperature",
+        "pk": 4,
+        "fields": {
+            "timestamp": "2020-12-06T12:03:00Z",
+            "value": 29.3
+        }
+    },
+    {
+        "model": "temp_monitoring.temperature",
+        "pk": 5,
+        "fields": {
+            "timestamp": "2022-06-23T19:34:31.631Z",
+            "value": 20.38130606629339
+        }
+    },
+    {
+        "model": "temp_monitoring.temperature",
+        "pk": 6,
+        "fields": {
+            "timestamp": "2022-06-23T19:34:34.633Z",
+            "value": 24.768451369499854
+        }
+    },
+    {
+        "model": "temp_monitoring.temperature",
+        "pk": 7,
+        "fields": {
+            "timestamp": "2022-06-23T19:34:37.635Z",
+            "value": 29.008828978061754
+        }
+    },
+    {
+        "model": "temp_monitoring.temperature",
+        "pk": 8,
+        "fields": {
+            "timestamp": "2022-06-23T19:34:40.638Z",
+            "value": 30.730638955185885
+        }
+    },
+    {
+        "model": "temp_monitoring.temperature",
+        "pk": 9,
+        "fields": {
+            "timestamp": "2022-06-23T19:34:43.645Z",
+            "value": 32.505184120368384
+        }
+    },
+    {
+        "model": "temp_monitoring.temperature",
+        "pk": 10,
+        "fields": {
+            "timestamp": "2022-06-23T19:34:46.629Z",
+            "value": 30.296571847865128
+        }
+    },
+    {
+        "model": "temp_monitoring.temperature",
+        "pk": 11,
+        "fields": {
+            "timestamp": "2022-06-23T19:34:49.632Z",
+            "value": 30.11554210602468
+        }
+    },
+    {
+        "model": "temp_monitoring.temperature",
+        "pk": 12,
+        "fields": {
+            "timestamp": "2022-06-23T19:34:52.634Z",
+            "value": 26.06480497826224
+        }
+    },
+    {
+        "model": "temp_monitoring.temperature",
+        "pk": 13,
+        "fields": {
+            "timestamp": "2022-06-23T19:34:55.639Z",
+            "value": 24.36331439188774
+        }
+    },
+    {
+        "model": "temp_monitoring.temperature",
+        "pk": 14,
+        "fields": {
+            "timestamp": "2022-06-23T19:34:58.643Z",
+            "value": 18.81694472462742
+        }
+    },
+    {
+        "model": "temp_monitoring.temperature",
+        "pk": 15,
+        "fields": {
+            "timestamp": "2022-06-23T19:35:01.646Z",
+            "value": 17.253398752156052
+        }
+    },
+    {
+        "model": "temp_monitoring.temperature",
+        "pk": 16,
+        "fields": {
+            "timestamp": "2022-06-23T19:35:04.652Z",
+            "value": 13.406917911907964
+        }
+    },
+    {
+        "model": "temp_monitoring.temperature",
+        "pk": 17,
+        "fields": {
+            "timestamp": "2022-06-23T19:35:07.655Z",
+            "value": 10.642363037047561
+        }
+    },
+    {
+        "model": "temp_monitoring.temperature",
+        "pk": 18,
+        "fields": {
+            "timestamp": "2022-06-23T19:35:10.659Z",
+            "value": 7.397084503596163
+        }
+    },
+    {
+        "model": "temp_monitoring.temperature",
+        "pk": 19,
+        "fields": {
+            "timestamp": "2022-06-23T19:35:13.666Z",
+            "value": 7.329967116467653
+        }
+    },
+    {
+        "model": "temp_monitoring.temperature",
+        "pk": 20,
+        "fields": {
+            "timestamp": "2022-06-23T19:35:16.650Z",
+            "value": 6.353512876532009
+        }
+    },
+    {
+        "model": "temp_monitoring.temperature",
+        "pk": 21,
+        "fields": {
+            "timestamp": "2022-06-23T19:35:19.655Z",
+            "value": 7.041965447662964
+        }
+    },
+    {
+        "model": "temp_monitoring.temperature",
+        "pk": 22,
+        "fields": {
+            "timestamp": "2022-06-23T19:35:22.659Z",
+            "value": 6.886505823244477
+        }
+    },
+    {
+        "model": "temp_monitoring.temperature",
+        "pk": 23,
+        "fields": {
+            "timestamp": "2022-06-23T19:35:31.048Z",
+            "value": 10.597658225060831
+        }
+    },
+    {
+        "model": "temp_monitoring.temperature",
+        "pk": 24,
+        "fields": {
+            "timestamp": "2022-06-23T19:35:34.052Z",
+            "value": 15.98272405738091
+        }
+    },
+    {
+        "model": "temp_monitoring.temperature",
+        "pk": 25,
+        "fields": {
+            "timestamp": "2022-06-23T19:35:37.057Z",
+            "value": 16.686480038351494
+        }
+    },
+    {
+        "model": "temp_monitoring.temperature",
+        "pk": 26,
+        "fields": {
+            "timestamp": "2022-06-23T19:35:40.064Z",
+            "value": 21.534813987876728
+        }
+    },
+    {
+        "model": "temp_monitoring.temperature",
+        "pk": 27,
+        "fields": {
+            "timestamp": "2022-06-23T19:35:43.067Z",
+            "value": 23.626345134001486
+        }
+    },
+    {
+        "model": "temp_monitoring.temperature",
+        "pk": 28,
+        "fields": {
+            "timestamp": "2022-06-23T19:35:46.051Z",
+            "value": 28.142465340633187
+        }
+    },
+    {
+        "model": "temp_monitoring.temperature",
+        "pk": 29,
+        "fields": {
+            "timestamp": "2022-06-23T19:35:49.055Z",
+            "value": 27.644905904591365
+        }
+    },
+    {
+        "model": "temp_monitoring.temperature",
+        "pk": 30,
+        "fields": {
+            "timestamp": "2022-06-23T19:35:52.062Z",
+            "value": 28.781126598422777
+        }
+    },
+    {
+        "model": "temp_monitoring.temperature",
+        "pk": 31,
+        "fields": {
+            "timestamp": "2022-06-23T19:35:55.066Z",
+            "value": 26.88611449034567
+        }
+    },
+    {
+        "model": "temp_monitoring.temperature",
+        "pk": 32,
+        "fields": {
+            "timestamp": "2022-06-23T19:36:13.210Z",
+            "value": -8.307226248179646
+        }
+    },
+    {
+        "model": "temp_monitoring.temperature",
+        "pk": 33,
+        "fields": {
+            "timestamp": "2022-06-23T19:36:16.190Z",
+            "value": -15.6655013826761
+        }
+    },
+    {
+        "model": "temp_monitoring.temperature",
+        "pk": 34,
+        "fields": {
+            "timestamp": "2022-06-23T19:36:19.192Z",
+            "value": -21.836553890433144
+        }
+    },
+    {
+        "model": "temp_monitoring.temperature",
+        "pk": 35,
+        "fields": {
+            "timestamp": "2022-06-23T19:36:22.196Z",
+            "value": -25.52565409610941
+        }
+    },
+    {
+        "model": "temp_monitoring.temperature",
+        "pk": 36,
+        "fields": {
+            "timestamp": "2022-06-23T19:36:25.205Z",
+            "value": -28.65258768690243
+        }
+    },
+    {
+        "model": "temp_monitoring.temperature",
+        "pk": 37,
+        "fields": {
+            "timestamp": "2022-06-23T19:36:28.211Z",
+            "value": -29.34256051223122
+        }
+    },
+    {
+        "model": "temp_monitoring.temperature",
+        "pk": 38,
+        "fields": {
+            "timestamp": "2022-06-23T19:36:31.217Z",
+            "value": -28.86953006206312
+        }
+    },
+    {
+        "model": "temp_monitoring.temperature",
+        "pk": 39,
+        "fields": {
+            "timestamp": "2022-06-23T19:36:34.221Z",
+            "value": -27.986454958492313
+        }
+    },
+    {
+        "model": "temp_monitoring.temperature",
+        "pk": 40,
+        "fields": {
+            "timestamp": "2022-06-23T19:36:37.224Z",
+            "value": -23.892566756248343
+        }
+    },
+    {
+        "model": "temp_monitoring.temperature",
+        "pk": 41,
+        "fields": {
+            "timestamp": "2022-06-23T19:36:40.226Z",
+            "value": -22.44078076481624
+        }
+    },
+    {
+        "model": "temp_monitoring.temperature",
+        "pk": 42,
+        "fields": {
+            "timestamp": "2022-06-23T19:36:43.231Z",
+            "value": -17.09937992239791
+        }
+    },
+    {
+        "model": "temp_monitoring.temperature",
+        "pk": 43,
+        "fields": {
+            "timestamp": "2022-06-23T19:36:46.215Z",
+            "value": -16.928784199920738
+        }
+    },
+    {
+        "model": "temp_monitoring.temperature",
+        "pk": 44,
+        "fields": {
+            "timestamp": "2022-06-23T19:36:49.222Z",
+            "value": -11.027594944919601
+        }
+    },
+    {
+        "model": "temp_monitoring.temperature",
+        "pk": 45,
+        "fields": {
+            "timestamp": "2022-06-23T19:36:52.224Z",
+            "value": -11.108205325378496
+        }
+    },
+    {
+        "model": "temp_monitoring.temperature",
+        "pk": 46,
+        "fields": {
+            "timestamp": "2022-06-23T19:36:55.229Z",
+            "value": -8.55026009221835
+        }
+    },
+    {
+        "model": "temp_monitoring.temperature",
+        "pk": 47,
+        "fields": {
+            "timestamp": "2022-06-23T19:36:58.236Z",
+            "value": -8.60920858145815
+        }
+    },
+    {
+        "model": "temp_monitoring.temperature",
+        "pk": 48,
+        "fields": {
+            "timestamp": "2022-06-23T19:37:01.245Z",
+            "value": -6.485476208320096
+        }
+    },
+    {
+        "model": "temp_monitoring.temperature",
+        "pk": 49,
+        "fields": {
+            "timestamp": "2022-06-23T19:37:04.248Z",
+            "value": -7.6557652196570265
+        }
+    },
+    {
+        "model": "temp_monitoring.temperature",
+        "pk": 50,
+        "fields": {
+            "timestamp": "2022-06-23T19:37:07.254Z",
+            "value": -7.635795779343347
+        }
+    },
+    {
+        "model": "temp_monitoring.temperature",
+        "pk": 51,
+        "fields": {
+            "timestamp": "2022-06-23T19:37:10.256Z",
+            "value": -10.16847938134791
+        }
+    },
+    {
+        "model": "temp_monitoring.temperature",
+        "pk": 52,
+        "fields": {
+            "timestamp": "2022-06-23T19:37:13.261Z",
+            "value": -11.938007672790281
+        }
+    },
+    {
+        "model": "temp_monitoring.temperature",
+        "pk": 53,
+        "fields": {
+            "timestamp": "2022-06-23T19:37:16.249Z",
+            "value": -15.410339544255633
+        }
+    },
+    {
+        "model": "temp_monitoring.temperature",
+        "pk": 54,
+        "fields": {
+            "timestamp": "2022-06-23T19:37:19.253Z",
+            "value": -18.092444910819832
+        }
+    },
+    {
+        "model": "temp_monitoring.temperature",
+        "pk": 55,
+        "fields": {
+            "timestamp": "2022-06-23T19:38:22.671Z",
+            "value": 18.176490229600557
+        }
+    },
+    {
+        "model": "temp_monitoring.temperature",
+        "pk": 56,
+        "fields": {
+            "timestamp": "2022-06-23T19:38:25.672Z",
+            "value": 13.660311627542377
+        }
+    },
+    {
+        "model": "temp_monitoring.temperature",
+        "pk": 57,
+        "fields": {
+            "timestamp": "2022-06-23T19:38:28.675Z",
+            "value": 11.236323124390893
+        }
+    },
+    {
+        "model": "temp_monitoring.temperature",
+        "pk": 58,
+        "fields": {
+            "timestamp": "2022-06-23T19:38:31.676Z",
+            "value": 7.378504396923653
+        }
+    },
+    {
+        "model": "temp_monitoring.temperature",
+        "pk": 59,
+        "fields": {
+            "timestamp": "2022-06-23T19:38:34.681Z",
+            "value": 4.717798280893268
+        }
+    },
+    {
+        "model": "temp_monitoring.temperature",
+        "pk": 60,
+        "fields": {
+            "timestamp": "2022-06-23T19:38:37.687Z",
+            "value": 2.2078223259169283
+        }
+    },
+    {
+        "model": "temp_monitoring.temperature",
+        "pk": 61,
+        "fields": {
+            "timestamp": "2022-06-23T19:38:40.694Z",
+            "value": 0.7394521612838179
+        }
+    },
+    {
+        "model": "temp_monitoring.temperature",
+        "pk": 62,
+        "fields": {
+            "timestamp": "2022-06-23T19:38:43.699Z",
+            "value": -0.952613302704509
+        }
+    },
+    {
+        "model": "temp_monitoring.temperature",
+        "pk": 63,
+        "fields": {
+            "timestamp": "2022-06-23T19:38:46.681Z",
+            "value": -0.8548971701070851
+        }
+    },
+    {
+        "model": "temp_monitoring.temperature",
+        "pk": 64,
+        "fields": {
+            "timestamp": "2022-06-23T19:38:49.682Z",
+            "value": -0.7815962223069355
+        }
+    },
+    {
+        "model": "temp_monitoring.temperature",
+        "pk": 65,
+        "fields": {
+            "timestamp": "2022-06-23T19:38:52.686Z",
+            "value": 0.01706889133094558
+        }
+    },
+    {
+        "model": "temp_monitoring.temperature",
+        "pk": 66,
+        "fields": {
+            "timestamp": "2022-06-23T19:38:55.690Z",
+            "value": 3.2102162843882276
+        }
+    },
+    {
+        "model": "temp_monitoring.temperature",
+        "pk": 67,
+        "fields": {
+            "timestamp": "2022-06-23T19:38:58.693Z",
+            "value": 4.092181562978352
+        }
+    },
+    {
+        "model": "temp_monitoring.temperature",
+        "pk": 68,
+        "fields": {
+            "timestamp": "2022-06-23T19:39:01.696Z",
+            "value": 8.222290588179527
+        }
+    },
+    {
+        "model": "temp_monitoring.temperature",
+        "pk": 69,
+        "fields": {
+            "timestamp": "2022-06-23T19:39:04.700Z",
+            "value": 9.661451590660068
+        }
+    },
+    {
+        "model": "temp_monitoring.temperature",
+        "pk": 70,
+        "fields": {
+            "timestamp": "2022-06-23T19:39:07.704Z",
+            "value": 15.382620938447545
+        }
+    },
+    {
+        "model": "temp_monitoring.temperature",
+        "pk": 71,
+        "fields": {
+            "timestamp": "2022-06-23T19:39:10.708Z",
+            "value": 17.221638444536698
+        }
+    },
+    {
+        "model": "temp_monitoring.temperature",
+        "pk": 72,
+        "fields": {
+            "timestamp": "2022-06-23T19:39:13.714Z",
+            "value": 21.486203798594502
+        }
+    },
+    {
+        "model": "temp_monitoring.temperature",
+        "pk": 73,
+        "fields": {
+            "timestamp": "2022-06-23T19:39:16.695Z",
+            "value": 22.665938546426972
+        }
+    },
+    {
+        "model": "temp_monitoring.temperature",
+        "pk": 74,
+        "fields": {
+            "timestamp": "2022-06-23T19:39:19.701Z",
+            "value": 24.39461474034981
+        }
+    },
+    {
+        "model": "temp_monitoring.temperature",
+        "pk": 75,
+        "fields": {
+            "timestamp": "2022-06-23T19:39:22.703Z",
+            "value": 23.118261131806463
+        }
+    },
+    {
+        "model": "temp_monitoring.temperature",
+        "pk": 76,
+        "fields": {
+            "timestamp": "2022-06-23T19:39:25.707Z",
+            "value": 23.858940544569027
+        }
+    },
+    {
+        "model": "temp_monitoring.temperature",
+        "pk": 77,
+        "fields": {
+            "timestamp": "2022-06-23T19:39:28.717Z",
+            "value": 17.89063934435733
+        }
+    },
+    {
+        "model": "temp_monitoring.temperature",
+        "pk": 78,
+        "fields": {
+            "timestamp": "2022-06-23T19:39:31.722Z",
+            "value": 14.896616132928502
+        }
+    },
+    {
+        "model": "temp_monitoring.temperature",
+        "pk": 79,
+        "fields": {
+            "timestamp": "2022-06-23T19:39:34.729Z",
+            "value": 6.809170528230766
+        }
+    },
+    {
+        "model": "temp_monitoring.temperature",
+        "pk": 80,
+        "fields": {
+            "timestamp": "2022-06-23T19:39:37.737Z",
+            "value": 1.79899041097682
+        }
+    },
+    {
+        "model": "temp_monitoring.temperature",
+        "pk": 81,
+        "fields": {
+            "timestamp": "2022-06-23T19:39:40.741Z",
+            "value": -7.346025983395011
+        }
+    },
+    {
+        "model": "temp_monitoring.temperature",
+        "pk": 82,
+        "fields": {
+            "timestamp": "2022-06-23T19:39:43.749Z",
+            "value": -12.510561586570148
+        }
+    },
+    {
+        "model": "temp_monitoring.temperature",
+        "pk": 83,
+        "fields": {
+            "timestamp": "2022-06-23T19:39:46.732Z",
+            "value": -19.458343076290593
+        }
+    },
+    {
+        "model": "temp_monitoring.temperature",
+        "pk": 84,
+        "fields": {
+            "timestamp": "2022-06-23T19:39:49.736Z",
+            "value": -24.606031962005375
+        }
+    },
+    {
+        "model": "temp_monitoring.temperature",
+        "pk": 85,
+        "fields": {
+            "timestamp": "2022-06-23T19:39:52.740Z",
+            "value": -28.825479289353723
+        }
+    },
+    {
+        "model": "temp_monitoring.temperature",
+        "pk": 86,
+        "fields": {
+            "timestamp": "2022-06-23T19:39:55.745Z",
+            "value": -29.808621494128385
+        }
+    },
+    {
+        "model": "temp_monitoring.temperature",
+        "pk": 87,
+        "fields": {
+            "timestamp": "2022-06-23T19:39:58.754Z",
+            "value": -30.436646756089065
+        }
+    },
+    {
+        "model": "temp_monitoring.temperature",
+        "pk": 88,
+        "fields": {
+            "timestamp": "2022-06-23T19:40:01.756Z",
+            "value": -30.079914586975264
+        }
+    },
+    {
+        "model": "temp_monitoring.temperature",
+        "pk": 89,
+        "fields": {
+            "timestamp": "2022-06-23T19:40:04.762Z",
+            "value": -26.626841717641792
+        }
+    },
+    {
+        "model": "temp_monitoring.temperature",
+        "pk": 90,
+        "fields": {
+            "timestamp": "2022-06-23T19:40:07.768Z",
+            "value": -25.138659148135595
+        }
+    },
+    {
+        "model": "temp_monitoring.temperature",
+        "pk": 91,
+        "fields": {
+            "timestamp": "2022-06-23T19:40:10.777Z",
+            "value": -18.633184345334406
+        }
+    },
+    {
+        "model": "temp_monitoring.temperature",
+        "pk": 92,
+        "fields": {
+            "timestamp": "2022-06-23T19:40:13.784Z",
+            "value": -17.546420323364252
+        }
+    },
+    {
+        "model": "temp_monitoring.temperature",
+        "pk": 93,
+        "fields": {
+            "timestamp": "2022-06-23T19:40:16.768Z",
+            "value": -13.097978080769442
+        }
+    },
+    {
+        "model": "temp_monitoring.temperature",
+        "pk": 94,
+        "fields": {
+            "timestamp": "2022-06-23T19:40:19.770Z",
+            "value": -11.153094595291716
+        }
+    },
+    {
+        "model": "temp_monitoring.temperature",
+        "pk": 95,
+        "fields": {
+            "timestamp": "2022-06-23T19:40:22.774Z",
+            "value": -7.592634400971955
+        }
+    },
+    {
+        "model": "temp_monitoring.temperature",
+        "pk": 96,
+        "fields": {
+            "timestamp": "2022-06-23T19:40:25.776Z",
+            "value": -7.310120917778468
+        }
+    },
+    {
+        "model": "temp_monitoring.temperature",
+        "pk": 97,
+        "fields": {
+            "timestamp": "2022-06-23T19:40:28.784Z",
+            "value": -4.374167537561068
+        }
+    },
+    {
+        "model": "temp_monitoring.temperature",
+        "pk": 98,
+        "fields": {
+            "timestamp": "2022-06-23T19:40:31.792Z",
+            "value": -5.639506748387388
+        }
+    },
+    {
+        "model": "temp_monitoring.temperature",
+        "pk": 99,
+        "fields": {
+            "timestamp": "2022-06-23T19:40:40.819Z",
+            "value": -6.478991294027092
+        }
+    },
+    {
+        "model": "temp_monitoring.temperature",
+        "pk": 100,
+        "fields": {
+            "timestamp": "2022-06-23T19:40:43.820Z",
+            "value": -9.27888525640098
+        }
+    },
+    {
+        "model": "temp_monitoring.temperature",
+        "pk": 101,
+        "fields": {
+            "timestamp": "2022-06-23T19:40:46.801Z",
+            "value": -11.56984981952031
+        }
+    },
+    {
+        "model": "temp_monitoring.temperature",
+        "pk": 102,
+        "fields": {
+            "timestamp": "2022-06-23T19:40:49.805Z",
+            "value": -13.732916103727765
+        }
+    },
+    {
+        "model": "temp_monitoring.temperature",
+        "pk": 103,
+        "fields": {
+            "timestamp": "2022-06-23T19:40:52.809Z",
+            "value": -17.712990258206638
+        }
+    },
+    {
+        "model": "temp_monitoring.temperature",
+        "pk": 104,
+        "fields": {
+            "timestamp": "2022-06-23T19:40:55.813Z",
+            "value": -20.199635472340717
+        }
+    },
+    {
+        "model": "temp_monitoring.temperature",
+        "pk": 105,
+        "fields": {
+            "timestamp": "2022-06-23T19:40:58.816Z",
+            "value": -22.916449509435555
+        }
+    },
+    {
+        "model": "temp_monitoring.temperature",
+        "pk": 106,
+        "fields": {
+            "timestamp": "2022-06-23T19:41:01.820Z",
+            "value": -24.286986903355285
+        }
+    },
+    {
+        "model": "temp_monitoring.temperature",
+        "pk": 107,
+        "fields": {
+            "timestamp": "2022-06-23T19:41:04.824Z",
+            "value": -26.322787257083206
+        }
+    },
+    {
+        "model": "temp_monitoring.temperature",
+        "pk": 108,
+        "fields": {
+            "timestamp": "2022-06-23T19:41:07.827Z",
+            "value": -25.325583931571376
+        }
+    },
+    {
+        "model": "temp_monitoring.temperature",
+        "pk": 109,
+        "fields": {
+            "timestamp": "2022-06-23T19:41:10.830Z",
+            "value": -24.270414233508877
+        }
+    },
+    {
+        "model": "temp_monitoring.temperature",
+        "pk": 110,
+        "fields": {
+            "timestamp": "2022-06-23T19:41:13.833Z",
+            "value": -19.66620291879009
+        }
+    },
+    {
+        "model": "temp_monitoring.temperature",
+        "pk": 111,
+        "fields": {
+            "timestamp": "2022-06-23T19:41:16.823Z",
+            "value": -15.008734611921508
+        }
+    },
+    {
+        "model": "temp_monitoring.temperature",
+        "pk": 112,
+        "fields": {
+            "timestamp": "2022-06-23T19:41:19.825Z",
+            "value": -7.248024074269415
+        }
+    },
+    {
+        "model": "temp_monitoring.temperature",
+        "pk": 113,
+        "fields": {
+            "timestamp": "2022-06-23T19:41:22.833Z",
+            "value": -0.86033105288625
+        }
+    }
+]
