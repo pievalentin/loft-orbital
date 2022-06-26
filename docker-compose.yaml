@@ -1,0 +1,27 @@
+version: "3.9"
+
+services:
+  django:
+    build: .
+    command: python manage.py runserver 0.0.0.0:8000
+    volumes:
+      - .:/code
+    ports:
+      - "8000:8000"
+
+  worker:
+    build: .
+    command: python /code/loft_orbital/temp_monitoring/tasks.py
+    volumes:
+      - .:/code
+    depends_on:
+      - temp
+    environment:
+      - PYTHONPATH=/code/
+
+  temp:
+    image: us.gcr.io/loft-orbital-public/hiring/challenges/ground-software/back-end/satellite-temperature
+    ports:
+      - "1000:4000"
+    environment:
+      - INTERVAL=3 
