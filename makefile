@@ -50,3 +50,9 @@ down:
 .PHONY: build
 build:
 	docker-compose build
+
+.PHONY: format
+format:
+	PYTHONPATH=`pwd` poetry run black .
+	PYTHONPATH=`pwd` poetry run isort .
+	PYTHONPATH=`pwd` poetry run mypy .

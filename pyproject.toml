@@ -16,7 +16,16 @@ pdbpp = "^0.10.3"
 autopep8 = "^1.6.0"
 isort = "^5.10.1"
 pytest-django = "^4.5.2"
+mypy = "^0.961"
+black = "^22.3.0"
+pytest = "^7.1.2"
 
+[tool.mypy]
+ignore_missing_imports = true
+exclude = ["loft_orbital/temp_monitoring/migrations/*"]
+
+[tool.isort]
+profile = "black"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]

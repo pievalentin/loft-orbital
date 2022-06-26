@@ -2,12 +2,13 @@ import asyncio
 import json
 import os
 from datetime import datetime, timezone
+from typing import Any
 
 import django
 import websockets
 from asgiref.sync import sync_to_async
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'loft_orbital.settings')
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "loft_orbital.settings")
 django.setup()
 
 from loft_orbital.temp_monitoring.models import Temperature  # noqa
@@ -15,26 +16,29 @@ from loft_orbital.temp_monitoring.models import Temperature  # noqa
 
 async def process_msg(data: dict) -> None:
     try:
-        t = Temperature(timestamp=datetime.now(timezone.utc),
-                        value=data['payload']['data']['temperature'])
-        await sync_to_async(t.save)()
+        t = Temperature(
+            timestamp=datetime.now(timezone.utc),
+            value=data["payload"]["data"]["temperature"],
+        )
+        await sync_to_async(t.save)()  # type: ignore
         print(f"{t} saved")
     except:
-        print(f'Could not handle this temp: {data}')
+        print(f"Could not handle this temp: {data}")
 
 
 async def capture_data() -> None:
     uri: str = f"ws://{os.getenv('WS_HOST','temp')}:4000/graphql"
     start: dict = {
         "type": "start",
-        "payload": {"query": "subscription { temperature }"}
+        "payload": {"query": "subscription { temperature }"},
     }
-    async with websockets.connect(uri, subprotocols=["graphql-ws"]) as websocket:
+    async with websockets.connect(uri, subprotocols=["graphql-ws"]) as websocket:  # type: ignore
         await websocket.send(json.dumps(start))
         while True:
             data = await websocket.recv()
             asyncio.create_task(process_msg(json.loads(data)))
 
+
 if __name__ == "__main__":
-    print('Running')
+    print("Running")
     asyncio.run(capture_data())

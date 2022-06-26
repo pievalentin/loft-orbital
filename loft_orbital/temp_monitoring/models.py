@@ -1,5 +1,4 @@
 from django.db import models
-from psycopg2 import Timestamp
 
 
 # Create your models here.
