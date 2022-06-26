@@ -4,6 +4,10 @@ Install depedencies
 ```bash
 poetry install
 ```
+Init the db
+```bash
+make migrate
+```
 Now you can run the django server
 ```bash
 make runserver
